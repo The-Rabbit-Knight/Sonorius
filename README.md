@@ -190,6 +190,7 @@ pip install -r requirements.txt
 #### Option A: On Your Computer (Default & Recommended)
 - **Linux / macOS (or Windows via WSL2 / Git Bash):**
   ```bash
+  chmod +x run_app.sh
   ./run_app.sh
   ```
   Open your browser at **`http://localhost:8501`** (or `https://localhost:8501` if you configured `mkcert` / custom TLS certificates).
