@@ -1,0 +1,20 @@
+[theme]
+base="dark"
+primaryColor="#2EC96A"
+backgroundColor="#0E1117"
+secondaryBackgroundColor="#262730"
+textColor="#D1D5DB"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+# Sonorius is designed as a personal, local desktop tool. It does not have a username, password, or login screen.
+# Anyone who can reach port 8501 in a web browser can immediately read, add, edit, or delete all questions, answers, and study notes in the database.
+# So, only listen on this machine as the vault holds private data and the app has no login.
+# Use ./run_app.sh --lan (which enforces HTTPS) only if you deliberately want LAN access.
+address = "localhost"
+maxUploadSize = 10
