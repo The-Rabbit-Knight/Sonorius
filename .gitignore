@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# SENSITIVE USER DATA & DATABASE - never commit personal Q&A vaults
+# ---------------------------------------------------------------------------
+# The SQLite database holds your private questions, answers, and notes.
+# Keep only sample templates or fixtures in git.
+interview_data.db
+interview_data.db-*
+*.db
+*.sqlite
+*.sqlite3
+
+# User-uploaded images and diagrams (keep directory structure)
+images/*
+!images/.gitkeep
+
+# Generated audio playback files, video demos, and temporary audio cache
+current_session.mp3
+test_*.mp3
+*.wav
+*.mp4
+*.tmp
+audio_cache/
+
+# ---------------------------------------------------------------------------
+# Python & Virtual Environments
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------------------
+# Secrets, Environment & Local Configuration
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+.certs/
+*.pem
+*.crt
+*.key
+.streamlit/secrets.toml
+secrets.*
+
+# ---------------------------------------------------------------------------
+# Backups & Temporary Artifacts
+# ---------------------------------------------------------------------------
+backup/
+*.bak
+*~
+
+# ---------------------------------------------------------------------------
+# IDE, Editors & OS Metadata
+# ---------------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
