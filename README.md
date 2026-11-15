@@ -6,6 +6,10 @@
 
 **Sonorius** is a local voice rehearsal and study app for any subject: coursework, exams, presentations, or interviews. Build a Question & Answer vault (manually or via Bulk CSV), attach images or diagrams, and practice with the local neural voice engine. Set separate voices for the question and answer, add think-time pauses to answer out loud before hearing the solution, and sequence custom playlists without sending data to the cloud.
 
+## App Overview
+
+https://github.com/user-attachments/assets/0274b850-5e88-4283-802f-b1b372a322fc
+
 ---
 
 ## How It Works
